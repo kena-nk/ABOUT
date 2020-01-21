@@ -1,0 +1,59 @@
+html body{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+    font-family: 'Optima','Consolas',sans-serif;
+    animation: fadeIn 5s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.main{
+    margin: 40px 30px;
+    margin-bottom: 50px;
+}
+
+.ABOUT{
+    margin:0 20px;
+}
+
+
+.ABOUT-top{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.ABOUT-top h1{
+    font-size: 50px;
+    padding: 30px 0;
+    background: rgba(128,0,0,1);
+    border-radius: 7px;
+    color: #fff;
+}
+
+img{
+    max-width: 30%;
+}
+
+.center{
+    text-align: center;
+}
+
+.profile{
+    
+    border-bottom: 6px solid rgba(128,0,0,1);
+    font-size: 40px;
+    font-family: 'TsukuBRdGothic-Regular',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+
+
